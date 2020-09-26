@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'habeebapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_28f851f5650749a9abc38004d7422a6e }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_cc72cc173ced444ea255b6a282dc762f }}
         package: ${{env.DOTNET_ROOT}}/myapp 
